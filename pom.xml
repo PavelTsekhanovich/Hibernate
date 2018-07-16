@@ -21,6 +21,7 @@
     <modules>
         <module>examples</module>
         <module>environment</module>
+        <module>model</module>
     </modules>
 
     <properties>
