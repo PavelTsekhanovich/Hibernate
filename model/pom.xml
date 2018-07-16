@@ -17,8 +17,6 @@
         <excludeDefaults>true</excludeDefaults>
     </reporting>
 
-    <!-- ##################################################################################################### -->
-
     <build>
         <plugins>
 
@@ -46,7 +44,6 @@
                     <execution>
                         <configuration>
                             <failOnError>true</failOnError>
-                            <!-- TODO: All false, the new enhancer breaks a lot of other things, eg. orphan-removal -->
                             <enableLazyInitialization>false</enableLazyInitialization>
                             <enableDirtyTracking>false</enableDirtyTracking>
                             <enableAssociationManagement>false</enableAssociationManagement>
